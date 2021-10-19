@@ -5,8 +5,8 @@ USER coder
 # Apply VS Code settings
 COPY container/settings.json .local/share/code-server/User/settings.json
 
-# Use bash shell
-ENV SHELL=/bin/bash
+# Use zsh shell
+ENV SHELL=/bin/zsh
 
 # Install unzip + rclone (support for remote filesystem)
 RUN sudo apt-get update && sudo apt-get install unzip -y

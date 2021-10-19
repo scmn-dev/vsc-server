@@ -2,7 +2,7 @@
 
 START_DIR="${START_DIR:-/home/coder/project}"
 
-PREFIX="deploy-code-server"
+PREFIX="vscode-x"
 
 mkdir -p $START_DIR
 
