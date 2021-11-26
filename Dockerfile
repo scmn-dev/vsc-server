@@ -1,4 +1,4 @@
-FROM smcr/coder-container:1.0.1
+FROM smcr/coder-container:1.0.2
 
 USER coder
 
